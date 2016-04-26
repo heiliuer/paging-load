@@ -1,0 +1,11 @@
+{
+  "name": "paging-load",
+  "description": "paging-load",
+  "version": "0.0.0",
+  "homepage": "https://github.com/heiliuer/paging-load",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.9.0"
+  }
+}
