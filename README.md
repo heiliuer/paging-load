@@ -2,6 +2,9 @@
 `jquery paging load plugin`
 `滑动，分页加载jquery（Zepto）插件`
 
+##DEMO
+[demo](index.html)
+
 ## 示例
 
 ###json数据

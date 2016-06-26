@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>body-scroll</title>
+    <meta
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+            name="viewport"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+</head>
+<style>
+    html{
+        height: 100%;
+    }
+    body{
+        height: 100%;
+        background-color: bisque;
+    }
+
+</style>
+<body>
+
+<div id="content-notice">
+    <div class="main"></div>
+    <div class="footer">
+        <!-- <p id="nextPage" class="center">加载更多</p> -->
+        <p id="status" style="text-align: center"></p>
+    </div>
+</div>
+
+<script id="tmpl-msg" type="wxy/template">
+    <div style="border-bottom: 1px solid #ccc">
+        {{for message}}
+        <b>{{>title}}</b>
+        <p>{{>content}}</p>
+        {{/for}}
+    </div>
+</script>
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/jsrender.min.js"></script>
+<script src="js/wxy.paging.js"></script>
+<script>
+    var config = {
+        ajax: {
+            url: "data/page.json",
+            data: {}
+        },
+        handler: {
+            autoLoad: true,
+            triggerByScroll: true,
+            holder: ".main",
+            scrollHolder: "body"
+        },
+        dataParser: {
+            pageSize: 10,
+            reverse: false,
+            isAppend: true,
+            nameArray: "messages"
+        },
+        dataRender: {
+            tmplSelector: "#tmpl-msg"
+        },
+        msgs: {
+            allLoaded: "已加载所有通知（共%s条）",
+            noContent: "暂无内容"
+        },
+        pageLoaded: function (dataArray, page, total) {// this
+            // $pageHodler
+            this.find("[data-init]").trigger("init");
+        },
+        itemLoaded: function (item, count, total) {// this
+            // $itemHodler
+        },
+        statusChanged: function (statusTo, statusFrom, msg) {// this
+            // $el
+        },
+        showWarn: function (msg) {
+        }
+    }
+
+    $("#content-notice").paging(config);
+</script>
+</html>
