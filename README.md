@@ -8,7 +8,7 @@
 ## 示例
 
 ###json数据
-[点击查看](/data/page.json)
+[点击查看](http://heiliuer.github.io/paging-load/)
 
 ###css
     html{
