@@ -1,0 +1,176 @@
+{
+  "status": 0,
+  "message": "请求成功",
+  "data": {
+    "messages": [
+      {
+        "message": {
+          "id": "4028d88a50f603d80150f69d6986000c",
+          "createTime": 1447246522757,
+          "updateTime": 1447246522757,
+          "title": "【班级通知】 ",
+          "content": "\n[补充一句]好的\n[补充一句]水电费水电费",
+          "description": "班级通知",
+          "images": [
+            "http://7xjx7y.com2.z0.glb.qiniucdn.com/20151111_qSRWevYZTxO69ttXHx_5ZcJLEDDfzzguXfd2-VbWiLjG2iwV5J8u83Mc-74vtfub.jpg"
+          ],
+          "voices": [],
+          "praiseCount": 0,
+          "requireReceipt": true,
+          "senderName": "王小龙",
+          "replyShowCount": 0
+        },
+        "isPraised": false
+      },
+      {
+        "message": {
+          "id": "4028d88a50f603d80150f69c0c130005",
+          "createTime": 1447246433298,
+          "updateTime": 1447246433298,
+          "title": "【班级通知】 ",
+          "content": "哈哈HK明",
+          "description": "班级通知",
+          "voices": [],
+          "praiseCount": 0,
+          "requireReceipt": true,
+          "senderName": "王小龙",
+          "replyShowCount": 0
+        },
+        "isPraised": false
+      },
+      {
+        "message": {
+          "id": "4028d88a50eccc160150f0d0199e006e",
+          "createTime": 1447149181342,
+          "updateTime": 1447149181342,
+          "title": "【班级通知】 ",
+          "content": "高中2015级1班：王小龙，阮小沛，彭小娟； 最近有进步，上课积极发言，学习成绩优异，认真完成作业，卫生不错，听课认真",
+          "description": "班级通知",
+          "voices": [],
+          "praiseCount": 1,
+          "requireReceipt": true,
+          "senderName": "王小龙",
+          "replyShowCount": 1
+        },
+        "isPraised": true
+      },
+      {
+        "message": {
+          "id": "4028d88a50eccc160150f0cd893f0064",
+          "createTime": 1447149013310,
+          "updateTime": 1447149013310,
+          "title": "【班级通知】 ",
+          "content": "高中2015级1班：全班同学； 最近有进步，听课认真，卫生不错，上课表现积极，认真完成作业，学习成绩优异，上课积极发言",
+          "description": "班级通知",
+          "voices": [],
+          "praiseCount": 1,
+          "requireReceipt": true,
+          "senderName": "王小龙",
+          "replyShowCount": 0
+        },
+        "isPraised": true
+      },
+      {
+        "message": {
+          "id": "4028d88a50eccc160150f00e174b005a",
+          "createTime": 1447136466763,
+          "updateTime": 1447136466763,
+          "title": "【全校家长通知】",
+          "content": "全校家长注意了，明天要双十一了！",
+          "voices": [],
+          "praiseCount": 1,
+          "requireReceipt": false,
+          "senderName": "王小龙",
+          "replyShowCount": 0
+        },
+        "isPraised": true
+      },
+      {
+        "message": {
+          "id": "4028d88a50eccc160150eccdc60e000d",
+          "createTime": 1447081920014,
+          "updateTime": 1447081920014,
+          "title": "【班级通知】 ",
+          "content": "你号",
+          "description": "班级通知",
+          "voices": [],
+          "praiseCount": 0,
+          "requireReceipt": true,
+          "senderName": "王小龙",
+          "replyShowCount": 0
+        },
+        "isPraised": false
+      },
+      {
+        "message": {
+          "id": "4028d88a50ecc85d0150ecc8954f0000",
+          "createTime": 1447081579853,
+          "updateTime": 1447081579853,
+          "title": "【班级通知】 ",
+          "content": "你好！",
+          "description": "班级通知",
+          "voices": [],
+          "praiseCount": 0,
+          "requireReceipt": true,
+          "senderName": "王小龙",
+          "replyShowCount": 0
+        },
+        "isPraised": false
+      },
+      {
+        "message": {
+          "id": "4028d88a50ecb9c70150ecc811e30009",
+          "createTime": 1447081546211,
+          "updateTime": 1447081546211,
+          "title": "【班级通知】 ",
+          "content": "",
+          "description": "班级通知",
+          "images": [
+            "http://7xjx7y.com2.z0.glb.qiniucdn.com/20151109_IS-3b7pL1xY7ApzEtbP4y5fKSmaGMADoyfNinwIgMkIxAmStFMXha93lKY-CRgLU.jpg"
+          ],
+          "voices": [],
+          "praiseCount": 0,
+          "requireReceipt": true,
+          "senderName": "阮笛沛",
+          "replyShowCount": 0
+        },
+        "isPraised": false
+      },
+      {
+        "message": {
+          "id": "4028d88a50ecb9c70150ecbbfca30003",
+          "createTime": 1447080754339,
+          "updateTime": 1447080754339,
+          "title": "【班级通知】 ",
+          "content": "你好！",
+          "description": "班级通知",
+          "voices": [],
+          "praiseCount": 0,
+          "requireReceipt": true,
+          "senderName": "王小龙",
+          "replyShowCount": 0
+        },
+        "isPraised": false
+      },
+      {
+        "message": {
+          "id": "4028d88a50ecb9c70150ecbb75de0000",
+          "createTime": 1447080719836,
+          "updateTime": 1447080719836,
+          "title": "【班级通知】 ",
+          "content": "",
+          "description": "班级通知",
+          "images": [
+            "http://7xjx7y.com2.z0.glb.qiniucdn.com/20151109_SYx9TbziS-8LjVuGlKgbifPR9bVSxDNahm3mZLHXnp5u_g_CryztxVs5lOch-r79.jpg"
+          ],
+          "voices": [],
+          "praiseCount": 0,
+          "requireReceipt": true,
+          "senderName": "阮笛沛",
+          "replyShowCount": 0
+        },
+        "isPraised": false
+      }
+    ]
+  }
+}
