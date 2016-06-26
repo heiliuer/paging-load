@@ -80,7 +80,8 @@
         }
     
         $("#content-notice").paging(config);
-</script>
+    </script>
+
 
 ### 模板引擎推荐使用通jsrender
 [点击下载](/js/jsrender.min.js)
