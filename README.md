@@ -3,12 +3,12 @@
 `滑动，分页加载jquery（Zepto）插件`
 
 ##DEMO
-[demo](index.html)
+[demo](http://heiliuer.github.io/paging-load/)
 
 ## 示例
 
 ###json数据
-[点击查看](http://heiliuer.github.io/paging-load/)
+[点击查看](data/page.json)
 
 ###css
     html{
