@@ -2,22 +2,22 @@
 `jquery paging load plugin`
 `滑动，分页加载jquery（Zepto）插件`
 
-##DEMO
+## DEMO
 [demo](http://heiliuer.github.io/paging-load/)
 
 ## 示例
 
-###json数据
+### json数据
 [点击查看](data/page.json)
 
-###css
+### css
     html{
         height: 100%;
     }
     body{
         height: 100%;
     }
-###html
+### html
 
     <div id="content-notice">
         <div class="main"></div>
@@ -36,7 +36,7 @@
         </div>
     </script>
 
-###js
+### js
     <script src="js/jquery.js"></script>
     <script src="js/jsrender.min.js"></script>
     <script src="js/wxy.paging.js"></script>
